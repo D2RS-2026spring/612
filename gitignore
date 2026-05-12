@@ -1,0 +1,27 @@
+# 数据文件（体积过大，不入库）
+data/Soybean_seed_counting/images_a/
+data/Soybean_seed_counting/images_b/
+data/Soybean_seed_counting/labels_a/
+data/Soybean_seed_counting/labels_b/
+data/Test_data/
+*.zip
+
+# 模型权重
+*.pth
+*.pt
+outputs/results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
